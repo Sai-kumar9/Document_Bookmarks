@@ -1,0 +1,25 @@
+<html>
+    <head>
+<title>
+    Document Bookmark
+</title>
+<br>
+</head>
+
+<body>
+    <form action="{{ url_for("hello_world")}}" method="post">
+   
+        <div>
+          <label for="file">Choose files to upload</label>
+          <input type="file" id="file" name="file1" multiple>
+          <input type="file" id="file" name="file2" multiple>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            
+        </div>
+        <label>check your input directory for Bookmarked file after clicking submit Button</label>
+    </form>
+</body>
+
+    </html>
